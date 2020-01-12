@@ -1,0 +1,5 @@
+## Interface: 11303
+## Title: BattleScoreNameHighlight
+## Author: krispex
+## Version: 1.0
+main.lua
