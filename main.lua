@@ -6,7 +6,7 @@ local defaultTextColour
 f:RegisterEvent("PLAYER_ENTERING_WORLD")
 f:SetScript("OnEvent", function(self,event, ...)
 	if event == "PLAYER_ENTERING_WORLD" then
-		local defaultTextColour = WorldStateScoreButton1Name.text:GetTextColor()
+		defaultTextColour = WorldStateScoreButton1Name.text:GetTextColor()
 		colourX,colourY,colourZ,colourA = WorldStateScoreButton1Name.text:GetTextColor()
 	end
 end)
